@@ -17,7 +17,7 @@
     box-shadow: 0 0 20px -10px rgba(0,0,0,0.75); 
 }
 .Feature__title{
-    font-style: 20px;
+    font-size: 20px;
 }
 .Feature__details{
     display: flex;
@@ -44,3 +44,6 @@
 .Feature__sub{
     color: gray;
 }
+
+
+  
