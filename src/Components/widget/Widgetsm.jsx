@@ -9,15 +9,15 @@ export default function Widgetsm() {
       <ul className="Widgetsm-items">
         {newMembers.map((member)=>(
             <li key={member.id} className="Widgetsm-item">
-            <img src={member.img} alt="" className='Widgetsm-img'/>
-            <div className="item-details">
-                <span className="item-username">{member.username}</span>
-                <span className="item-title">{member.title}</span>
-            </div>
-            <button className="Widgetsm-button">
-                <MdVisibility className='Widgetsm-icon'/>
-            </button>
-        </li>
+              <img src={member.img} alt="" className='Widgetsm-img'/>
+              <div className="item-details">
+                  <span className="item-username">{member.username}</span>
+                  <span className="item-title">{member.title}</span>
+              </div>
+              <button className="Widgetsm-button">
+                  <MdVisibility className='Widgetsm-icon'/>
+              </button>
+            </li>
         ))}
         
       </ul>

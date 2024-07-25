@@ -1,28 +1,59 @@
+.widgetlg{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.75);
+}
 
 .widgetlg__title{
-    
+    font-size: 22px;
+    font-weight: 600;
 }
 .widgetlg__table{
-    
-}
-.widgetlg{
-    
+    width: 100%;
+    border-spacing: 20px;
 }
 .widgetlg__th{
-    
+    text-align: left;
 }
 .widgetlg__user{
-    
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.widgetlg__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
 }
 .widgetlg__username{
     
 }
-.widgetlg__date{
-    
+.widgetlg__date,.widgetlg__amount{
+    font-weight: 300;
 }
 .widgetlg__amount{
     
 }
 . widgetlg__status{
     
+}
+.widgetlg__button{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.widgetlg__button.Approved{
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+.widgetlg__button.Declined{
+    background-color: #fff0f1;
+    color: #d95087;
+}
+.widgetlg__button.Pending{
+    background-color: #ebf1fe;
+    color: #2a7ade;
 }

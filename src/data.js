@@ -56,5 +56,12 @@ const newMembers=[
     {id:4,username:'Jack',title:'TeamLead',img:'./assets/images/avatar.png'},
 ]
 
-export {xAxisData,newMembers}
+const transactions=[
+    {id:1,username:'John',date:'2 Sep 2024',amount:'$76.00',status:'Approved',img:'./assets/images/avatar.png'},
+    {id:1,username:'Alex',date:'3 Sep 2024',amount:'$93.00',status:'Declined',img:'./assets/images/avatar.png'},
+    {id:1,username:'Siny',date:'3 Sep 2024',amount:'$28.00',status:'Approved',img:'./assets/images/avatar.png'},
+    {id:1,username:'Shhala',date:'4 Sep 2024',amount:'$250.00',status:'Approved',img:'./assets/images/avatar.png'},
+    {id:1,username:'Minx',date:'4 Sep 2024',amount:'$120.00',status:'Pending',img:'./assets/images/avatar.png'},
+]
+export {xAxisData,newMembers,transactions}
 
