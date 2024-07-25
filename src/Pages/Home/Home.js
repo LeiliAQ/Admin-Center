@@ -11,7 +11,7 @@ export default function Home() {
     <div style={{flex:1}} className='Home'>
        <Features/> 
        <Chart title="Last 6 Months Sales" data={xAxisData} dataKey="sale" grid />
-       <div className='homeWidgets'>
+       <div className='homeWidgets flex flex-col lg:flex-row justify-around items-start'>
           <Widgetsm/>
           <Widgetlg/>
        </div>
