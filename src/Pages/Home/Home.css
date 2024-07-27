@@ -1,5 +1,22 @@
+
 .homeWidgets{
     display: flex;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
+
+@media (max-width:480px){
+    .Home{
+        max-width:65%;
+    }
+}
+/* @media (max-width:640px){
+    .Home{
+        max-width:300px;
+    }
+} */
+/* @media (max-width:768px){
+    .Home{
+        max-width:400px;
+    }
+} */

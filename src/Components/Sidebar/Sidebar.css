@@ -31,3 +31,18 @@
 .sidebarIcon{
     margin-right: 5px;
 }
+@media screen and (max-width: 768px) {
+    .sidebar{
+        max-width: 100px;
+    }
+    .dashborad{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .dashborad{
+        font-size: x-small;
+    }
+}

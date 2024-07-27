@@ -63,5 +63,15 @@ const transactions=[
     {id:1,username:'Shhala',date:'4 Sep 2024',amount:'$250.00',status:'Approved',img:'./assets/images/avatar.png'},
     {id:1,username:'Minx',date:'4 Sep 2024',amount:'$120.00',status:'Pending',img:'./assets/images/avatar.png'},
 ]
-export {xAxisData,newMembers,transactions}
+
+let userRows=[
+    {id:1,username:'John',avatar:'./assets/images/avatar.png',status:'active',transaction:'$76.00',email:'jhon@jhon.com'},
+    {id:2,username:'Jane',avatar:'./assets/images/avatar.png',status:'active',transaction:'$0.00',email:'Jane@Jane.com'},
+    {id:3,username:'Jim',avatar:'./assets/images/avatar.png',status:'active',transaction:'$28.00',email:'Jim@Jim.com'},
+    {id:4,username:'Jack',avatar:'./assets/images/avatar.png',status:'active',transaction:'$250.00',email:'Jack@Jack.com'},
+    {id:5,username:'Siny',avatar:'./assets/images/avatar.png',status:'active',transaction:'$120.00',email:'Siny@Siny.com'},
+    {id:6,username:'Shhala',avatar:'./assets/images/avatar.png',status:'active',transaction:'$0.00',email:'Shhala@Shhala.com'},
+    {id:7,username:'Minx',avatar:'./assets/images/avatar.png',status:'active',transaction:'$93.00',email:'Minx@Minx.com'},
+]
+export {xAxisData,newMembers,transactions,userRows}
 

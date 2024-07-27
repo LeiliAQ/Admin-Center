@@ -8,7 +8,7 @@ import Widgetlg from '../../Components/widgetlg/Widgetlg.jsx'
 export default function Home() {
   console.log(xAxisData)
   return (
-    <div style={{flex:1}} className='Home'>
+    <div className='Home'>
        <Features/> 
        <Chart title="Last 6 Months Sales" data={xAxisData} dataKey="sale" grid />
        <div className='homeWidgets flex flex-col lg:flex-row justify-around items-start'>

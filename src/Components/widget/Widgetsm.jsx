@@ -18,8 +18,7 @@ export default function Widgetsm() {
                   <MdVisibility className='Widgetsm-icon'/>
               </button>
             </li>
-        ))}
-        
+        ))}     
       </ul>
     </div>
   )
