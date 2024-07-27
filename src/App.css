@@ -2,7 +2,7 @@
     font-family: 'Roboto-Black';
     src: url('./../public/assets/fonts/Roboto-Black.ttf');
 }
-html{
+*{
     box-sizing: border-box;
     font-family: 'Roboto-Black';
 }
