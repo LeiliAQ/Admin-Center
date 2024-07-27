@@ -17,7 +17,7 @@ export default function product() {
 
       <div className="productTop">
         <div className="productTopLeft">
-            <Chart title="Sale in Last 6 Months"  data={productsData} dataKey='Sales' style={{width:'100%',height:'400px'}}/>
+            <Chart title="Sales in Last 6 Months"  data={productsData} dataKey='Sales' style={{width:'100%',height:'400px'}}/>
         </div>
 
         <div className="productTopRight">

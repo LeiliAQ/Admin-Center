@@ -19,6 +19,8 @@
 }
 .productTop{
     display: flex;
+    justify-content: space-between;
+    gap:40px;
     margin-top: 100px;
 }
 .productTopLeft{
