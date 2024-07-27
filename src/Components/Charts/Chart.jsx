@@ -10,7 +10,7 @@ import {
     Legend,
     } from 'recharts'
 import './Chart.css'
-export default function Chart({title,dataKey,data,grid}) {
+export default function Chart({title,data,dataKey,grid}) {
   return (
     <div className="Chart">
         <h3 className="chartTitle">{title}</h3>

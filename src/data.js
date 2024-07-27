@@ -1,3 +1,5 @@
+import { FaSalesforce } from "react-icons/fa";
+
 let xAxisData=[
     {
         'name': 'Jan',
@@ -73,5 +75,20 @@ let userRows=[
     {id:6,username:'Shhala',avatar:'./assets/images/avatar.png',status:'active',transaction:'$0.00',email:'Shhala@Shhala.com'},
     {id:7,username:'Minx',avatar:'./assets/images/avatar.png',status:'active',transaction:'$93.00',email:'Minx@Minx.com'},
 ]
-export {xAxisData,newMembers,transactions,userRows}
+
+const products=[
+    {id:1,title:'Shoes',price:'$76.00',avatar:'./assets/images/shoes.jpg'},
+    {id:2,title:'Jane',price:'$76.00',avatar:'./assets/images/coat.webp'},
+    {id:3,title:'Jim',price:'$76.00',avatar:'./assets/images/dress.jpg'},
+    {id:4,title:'Jack',price:'$76.00',avatar:'./assets/images/T-Shirt.webp'},
+]
+const productsData=[
+    {name:'Jan',Sales:112000},
+    {name:'Feb',Sales:212000},
+    {name:'Mar',Sales:190000},
+    {name:'Apr',Sales:112000},
+    {name:'May',Sales:212000},
+    {name:'Jun',Sales:190000},
+]
+export {xAxisData,newMembers,transactions,userRows,products,productsData}
 
